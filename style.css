@@ -1,5 +1,22 @@
-.studenta {
+fieldset {
+    padding: 30px;
+    margin: 5px;
+}
 
+select {
+    padding: 0px 20px 0px 5px;
+}
+
+input:invalid {
+border-color: red;
+}
+
+input:valid {
+border-color: green;
+
+}
+
+.studenta {
 }
 
 .studentb {
