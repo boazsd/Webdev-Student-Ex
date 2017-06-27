@@ -8,7 +8,28 @@
     </head>
     <body>
         <div class="studenta">
-            
+            <form>
+                <fieldset>
+                    <legend>Required Form</legend>          
+                    <label for="name">Name: </lable>
+                    <input id="name" name="name" type="text" maxlength="30" placeholder="Name" required />
+                    <br><br>
+                    <label for="age"> Age :</label>
+                    <input id=”age” name="age" type="number" min="12" maX="120" /> 
+                    <br><br>
+                    <label for="email">Email address: </lable>
+                    <input id="email" name="email" type="email" reuired maxlength="30" placeholder="Email address: " required />
+                    <br><br>
+                    <label for="password">Password: </lable>
+                    <input type="password" reuired maxlength="30" placeholder="Password: " id="password" name="password" required />
+                    <br><br>
+                    <label for="password2">Reenter password: </lable>
+                    <input type="password" reuired maxlength="30" placeholder="Reenter Password: " id="password2" name="password2" required />
+                </fieldset>
+                <br><br>
+                <input type="submit" name="submit"/>
+                <input type="reset" name="reset"/>
+            </form>
         </div>        
         <div class="studentb">
                 <h1>Hellow Boaz</h1>

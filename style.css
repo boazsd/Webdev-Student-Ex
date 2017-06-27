@@ -1,7 +1,28 @@
-.studenta {
+fieldset {
+    padding: 30px;
+    margin: 5px;
+}
+
+select {
+    padding: 0px 20px 0px 5px;
+}
+
+input:invalid {
+border-color: red;
+}
+
+input:valid {
+border-color: green;
 
 }
 
+<<<<<<< HEAD
 .studentb { border: 5px dashed lightgreen;
+=======
+.studenta {
+}
+
+.studentb {
+>>>>>>> 604587d494864c245acb92f86e54fa49de94edb0
 
 }
